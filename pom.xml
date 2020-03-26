@@ -119,9 +119,9 @@
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
                     </systemPropertyVariables>
-                    <parallel>classes</parallel>
-                    <threadCount>${parallel.tests}</threadCount>
-                    <forkCount>${parallel.tests}</forkCount>
+<!--                    <parallel>classes</parallel>-->
+<!--                    <threadCount>${parallel.tests}</threadCount>-->
+<!--                    <forkCount>${parallel.tests}</forkCount>-->
                 </configuration>
                 <executions>
                     <execution>
